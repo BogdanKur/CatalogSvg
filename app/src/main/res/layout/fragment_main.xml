@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#e8af42"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainFragment">
+
+    <TextView
+        android:layout_marginTop="55dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:gravity="center|top"
+        android:textColor="@color/black"
+        android:text="@string/tvAuth"/>
+    <EditText
+        android:id="@+id/etLoginEnter"
+        android:background="@drawable/rounded_et"
+        android:layout_marginTop="7dp"
+        android:layout_gravity="center|top"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:padding="9dp"
+        android:hint="@string/etLoginEnter"/>
+    <EditText
+        android:id="@+id/etPasswordEnter"
+        android:background="@drawable/rounded_et"
+        android:layout_marginTop="7dp"
+        android:layout_gravity="center|top"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:padding="9dp"
+        android:hint="@string/etPasswordEnter"/>
+    <Button
+        android:id="@+id/btnAuth"
+        android:layout_marginTop="7dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_btn"
+        android:layout_gravity="center|top"
+        android:text="@string/btnAuth"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+</LinearLayout>

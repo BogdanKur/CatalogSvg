@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "431436825081",
+    "project_id": "catalogsvg",
+    "storage_bucket": "catalogsvg.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431436825081:android:f85cd0e61a38d856a77d28",
+        "android_client_info": {
+          "package_name": "com.example.catalogsvg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSOslL4OpcDk56ufZRf1ud2iTjqtYtt94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

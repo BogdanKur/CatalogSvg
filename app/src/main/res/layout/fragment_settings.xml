@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#e8af42"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingHorizontal="30dp"
+    android:orientation="vertical"
+    tools:context=".AddCacheFragment">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:text="Позволите ли вы сохранять файлы в кэш приложения?"/>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnNo"
+            android:text="НЕТ"
+            android:background="@drawable/rounded_et"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btnYes"
+            android:text="ДА"
+            android:background="@drawable/rounded_et"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:layout_gravity="start"
+            android:layout_width="150dp"
+            android:layout_height="230dp">
+            <ImageButton
+                android:layout_marginTop="60dp"
+                android:id="@+id/imgBtnOpenVk"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:src="@drawable/vk_icon"/>
+            <TextView
+                android:paddingTop="10dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_gravity="top|center"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Мы в Вконтакте"/>
+        </FrameLayout>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <FrameLayout
+            android:layout_width="150dp"
+            android:layout_height="230dp">
+            <ImageButton
+                android:layout_marginTop="80dp"
+                android:id="@+id/imgBtnOpenVisio"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:src="@drawable/visio_icon"/>
+            <TextView
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_gravity="top|center"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Установщик для открытия файлов vsd"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imgBtnChangeProfile"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/change_profile"
+        android:scaleType="centerCrop"/>
+
+</LinearLayout>

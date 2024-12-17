@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Дппд МЧС</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tvAuth">Авторизация</string>
+    <string name="etLoginEnter">Введите логин</string>
+    <string name="etPasswordEnter">Введите пароль</string>
+    <string name="btnAuth">Авторизоваться</string>
+</resources>
